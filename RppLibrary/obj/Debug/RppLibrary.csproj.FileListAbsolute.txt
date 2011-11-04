@@ -1,0 +1,10 @@
+C:\Users\Skaught\AppData\Local\Temporary Projects\RppLibrary\bin\Debug\RppLibrary.dll
+C:\Users\Skaught\AppData\Local\Temporary Projects\RppLibrary\bin\Debug\RppLibrary.pdb
+C:\Users\Skaught\AppData\Local\Temporary Projects\RppLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Skaught\AppData\Local\Temporary Projects\RppLibrary\obj\Debug\RppLibrary.dll
+C:\Users\Skaught\AppData\Local\Temporary Projects\RppLibrary\obj\Debug\RppLibrary.pdb
+C:\root\Programming\C#\RppLibrary\RppLibrary\bin\Debug\RppLibrary.dll
+C:\root\Programming\C#\RppLibrary\RppLibrary\bin\Debug\RppLibrary.pdb
+C:\root\Programming\C#\RppLibrary\RppLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\root\Programming\C#\RppLibrary\RppLibrary\obj\Debug\RppLibrary.dll
+C:\root\Programming\C#\RppLibrary\RppLibrary\obj\Debug\RppLibrary.pdb

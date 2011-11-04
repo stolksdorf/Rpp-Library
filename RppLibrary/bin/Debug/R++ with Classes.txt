@@ -1,0 +1,44 @@
+class ball
+   status = "at rest"
+   color = "red"
+   width = 5
+
+   constructor(new_color, new_width){
+       color = new_color
+       width = new_width
+   }
+
+   bounce(){
+       status = "bouncing"
+   }
+end class
+
+Init{
+	temp = ball("red", 5)
+	temp.bounce()
+
+	my_ball = ball("Transparent", 13)
+
+	my_ball.color = "mirror"
+
+}
+
+
+//Global
+
+
+
+//Inclasses
+- Move class variables into constructor
+- Add class variables to a global local list
+- Rename classes with name prefix
+- Add "return [name]_" to each constructor. Throw error if the construcotr has a return already
+- Loop through each line and repalce all class variables 
+
+
+
+//Out Class
+- Add a general class dump before and after each function call (exclude for constructors)
+- replace new class calls with the constructor calls
+- Modify FuncClass to support classes. Be able to tell which class it was from.
+	this will allow easy migrating of RSL with classes functions during extending

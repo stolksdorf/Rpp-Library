@@ -1,0 +1,25 @@
+ball_constructor(new_color, new_width){
+	ball_.status = "at rest"
+	ball_.color = "red"
+	ball_.width = 5
+
+	ball_.color = new_color
+	ball_.width = new width
+	return ball_
+}
+
+ball_bounce(){
+	ball_.status = "bouncing"
+}
+
+Init{
+	temp = ball_constructor("red",5)
+	
+	copy(ball_, temp)
+	ball_bounce()
+	copy(temp, ball_)
+
+	my_ball = ball_constructor("transparent", 13)
+	
+	my_ball.color = "mirror"
+}

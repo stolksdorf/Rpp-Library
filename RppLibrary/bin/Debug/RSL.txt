@@ -1,0 +1,35 @@
+ball_constructor
+{
+   copy(ball_.status,"at rest")
+   copy(ball_.color,"red")
+   copy(ball_.width,5)
+   
+   copy(ball_.color,ball_constructor_.new_color)
+   copy(ball_.width,new width)
+   copy(ball_constructor_.result,ball_)
+}
+
+ball_bounce
+{
+   copy(ball_.status,"bouncing")
+   copy(ball_bounce_.result,ball_)
+}
+
+Init
+{
+   ball_constructor_.new_color="red"
+   ball_constructor_.new_width=5
+   gosub(ball_constructor)
+   copy(temp,ball_constructor_.result)
+   
+   copy(temp, ball_)
+   gosub(ball_bounce)
+   copy(temp,ball_bounce_.result)
+   
+   ball_constructor_.new_color="transparent"
+   ball_constructor_.new_width= 13
+   gosub(ball_constructor)
+   copy(my_ball,ball_constructor_.result)
+   
+   copy(my_ball.color,"mirror")
+}
